@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		32D27EFAB27AE7A7198C5890 /* Pods_TwitterReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B82938B52F59D4CEA8099A /* Pods_TwitterReader.framework */; };
+		D61D2EB120630EAF00E6D2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61D2EB020630EAF00E6D2EB /* Assets.xcassets */; };
 		D656CD4A2061724D0092B7AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D656CD492061724D0092B7AA /* AppDelegate.swift */; };
-		D656CD512061724D0092B7AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D656CD502061724D0092B7AA /* Assets.xcassets */; };
 		D656CD542061724D0092B7AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D656CD522061724D0092B7AA /* LaunchScreen.storyboard */; };
 		D656CD5E206182B40092B7AA /* HomeDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D656CD5D206182B40092B7AA /* HomeDatasourceController.swift */; };
 		D656CD632061B0C50092B7AA /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = D656CD622061B0C50092B7AA /* Cells.swift */; };
@@ -18,9 +18,9 @@
 
 /* Begin PBXFileReference section */
 		36B82938B52F59D4CEA8099A /* Pods_TwitterReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61D2EB020630EAF00E6D2EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D656CD462061724D0092B7AA /* TwitterReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D656CD492061724D0092B7AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D656CD502061724D0092B7AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D656CD532061724D0092B7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D656CD552061724D0092B7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D656CD5D206182B40092B7AA /* HomeDatasourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDatasourceController.swift; sourceTree = "<group>"; };
@@ -80,11 +80,11 @@
 		D656CD482061724D0092B7AA /* TwitterReader */ = {
 			isa = PBXGroup;
 			children = (
+				D61D2EB020630EAF00E6D2EB /* Assets.xcassets */,
 				D656CD612061B0560092B7AA /* View */,
 				D656CD602061B04B0092B7AA /* Model */,
 				D656CD5F2061B0430092B7AA /* Controller */,
 				D656CD492061724D0092B7AA /* AppDelegate.swift */,
-				D656CD502061724D0092B7AA /* Assets.xcassets */,
 				D656CD522061724D0092B7AA /* LaunchScreen.storyboard */,
 				D656CD552061724D0092B7AA /* Info.plist */,
 			);
@@ -177,8 +177,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D61D2EB120630EAF00E6D2EB /* Assets.xcassets in Resources */,
 				D656CD542061724D0092B7AA /* LaunchScreen.storyboard in Resources */,
-				D656CD512061724D0092B7AA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
